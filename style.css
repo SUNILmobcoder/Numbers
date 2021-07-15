@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button {
+    display: flex;
+    margin: 20px;
+}
+
+.button > div {
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 5px 10px #90ee90;
+    overflow: hidden;
+
+}
+
+#result {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    min-width: 500px;
+    min-height: 100px;
+}
+
+input {
+    display: block;
+}
